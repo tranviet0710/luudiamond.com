@@ -12,8 +12,10 @@
     display: flex;
     justify-content: flex-end;
     position: relative;
-    /* height: 650px; */
+    height: 650px;
+    z-index: -1;
 }
+
 
 .slide-container {
     display: flex;
@@ -29,8 +31,8 @@
 }
 
 .menu-bar>div {
-    padding: 15px;
-    border: solid 1px black;
+    padding: 2rem;
+    border: 2px solid black;
     text-align: center;
 }
 
@@ -147,4 +149,27 @@ body {
     flex-flow: column;
     align-items: baseline;
     justify-content: end;
+}
+
+@media screen and (max-width: 768px) and (min-width: 100px) {
+    .text-carousel {
+        font-size: 20px;
+        color: #ffffff;
+        /* display: flex;
+            justify-content: center; */
+        text-align: center !important;
+    }
+
+    .menu-bar {
+        display: block !important;
+    }
+
+    .background-container>img {
+        position: relative;
+        left: 55%;
+    }
+
+    #carouselExampleControls {
+        visibility: hidden;
+    }
 }
