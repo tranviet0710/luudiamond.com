@@ -1,6 +1,6 @@
 @font-face {
     font-family: Helvetica;
-    src: url("../fonts/HelveticaNeue-Light.otf") format("opentype");
+    src: url("../fonts/HelveticaNeue-Light.otf");
 }
 
 body {
@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    font-family: HelveticaNeue !important;
+    font-family: Helvetica;
 }
 
 .main-part {
@@ -24,6 +24,10 @@ body {
     height: 12rem;
     text-align: center;
     image-rendering: crisp-edges;
+}
+
+footer a:hover {
+    color: red;
 }
 
 .menu-bar>div {
@@ -143,6 +147,16 @@ body {
 
 
 /* RESPONSIVE */
+
+
+.image_mobile {
+    display: none;
+}
+
+.image_pc {
+    display: block;
+}
+
 @media screen and (max-width: 768px) and (min-width: 100px) {
     .text-carousel {
         font-size: 40px;
@@ -168,5 +182,13 @@ body {
         display: block;
         margin: auto;
         text-align: center;
+    }
+
+    .image_mobile {
+        display: block;
+    }
+
+    .image_pc {
+        display: none;
     }
 }
