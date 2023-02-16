@@ -9,6 +9,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    font-family: HelveticaNeue !important;
 }
 
 .main-part {
@@ -79,11 +80,6 @@ body {
     padding: 15px 25px;
     border: 1px solid rgb(115, 104, 104);
     border-radius: 10px;
-}
-
-
-body {
-    font-family: HelveticaNeue !important;
 }
 
 .product-label {
