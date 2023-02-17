@@ -103,6 +103,7 @@ footer a:hover {
 
 .articles img {
     border: none;
+    background-color: rgb(228, 231, 234);
 }
 
 .articles article {
