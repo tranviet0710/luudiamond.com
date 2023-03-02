@@ -2,18 +2,136 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" type="image/x-icon" href="assets/diamond.png" />
-    <title>LUUDIAMOND | PRODUCER</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/diamond.png">
+    <title>LUUDIAMOND | PROCDUCER</title>
 </head>
 
 <body>
+    <header>
+        <nav class="text-center align-items-center">
+            <a href="index.html">
+                <img src="assets/logo.png" class="logo">
+            </a>
+            <button type="button" class="aboutme-btn" data-bs-toggle="modal" data-bs-target="#infoModal">
+                ABOUT ME
+            </button>
+            <!-- Modal -->
+            <div class="modal modal-xl fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="row">
+                        <img src="assets/aboutme_pc.png" class="image_pc" />
+                        <img src="assets/aboutme_mobile.png" class="image_mobile" />
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="mt-5 container">
+        <div class="banner">
+            <div class="banner-block">
+                <h1>PRODUCER</h1>
+            </div>
+        </div>
+        <div class="product-label mt-5">HOÀNG PHÚC</div>
+        <hr>
+        <div class="articles container">
+            <div class="wrapper d-flex">
+                <img src="assets/layout/Artboard 17.png" class="img-thumbnail">
+            </div>
+        </div>
 
+        <div class="product-label mt-5">YÊN NAM</div>
+        <hr>
+        <div id="yenNamCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/yen_nam/DSCF5764.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item ">
+                    <img src="assets/yen_nam/DSCF5850.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/yen_nam/DSCF5861.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/yen_nam/DSCF574666.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#yenNamCarousel" data-bs-slide="prev">
+                <span class="visually-hidden">Previous</span>
+                <i class="fa-solid fa-arrow-left text-dark border border-dark rounded-circle p-2"></i>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#yenNamCarousel" data-bs-slide="next">
+                <span class="visually-hidden">Next</span>
+                <i class="fa-solid fa-arrow-right text-dark border border-dark rounded-circle p-2"></i>
+            </button>
+        </div>
+
+        <div class="product-label mt-5">SUPERGA</div>
+        <hr>
+        <div class="articles container">
+            <div class="wrapper d-flex">
+                <img src="assets/layout/Artboard 18.png" class="img-thumbnail">
+            </div>
+            <div class="wrapper d-flex">
+                <img src="assets/layout/Artboard 6.png" class="img-thumbnail">
+            </div>
+        </div>
+        <div class="product-label mt-5">TẤT THÀNH CNDX STUDIO</div>
+        <hr>
+        <div id="tatThanhCarousel" class="carousel slide d-flex justify-content-center" data-bs-ride="carousel">
+            <div class="carousel-inner w-50">
+                <div class="carousel-item active">
+                    <img src="assets/tat_thanh/Untitled Session1103.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/tat_thanh/Untitled Session1078.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/tat_thanh/Untitled Session1162.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/tat_thanh/Untitled Session1171.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#tatThanhCarousel" data-bs-slide="prev">
+                <span class="visually-hidden">Previous</span>
+                <i class="fa-solid fa-arrow-left text-dark border border-dark rounded-circle p-2"></i>
+
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#tatThanhCarousel" data-bs-slide="next">
+                <span class="visually-hidden">Next</span>
+                <i class="fa-solid fa-arrow-right text-dark border border-dark rounded-circle p-2"></i>
+            </button>
+        </div>
+        <div class="product-label mt-5">DÉP ECKO</div>
+        <hr>
+        <div class="articles container">
+            <div class="wrapper d-flex">
+                <img src="assets/layout/Artboard 19.png" class="img-thumbnail">
+            </div>
+        </div>
+    </main>
+    <footer class="bg-dark navbar navbar-expand-lg mt-5">
+        <ul class="d-flex justify-content-around w-100 p-3">
+            <li><a href="https://www.facebook.com/kc996" target="_blank"><i
+                        class="text-white fa-brands fa-facebook fa-2x"></a></i>
+            </li>
+            <li><a href="https://www.instagram.com/diamondon/" target="_blank"><i
+                        class="text-white fa-brands fa-instagram fa-2x"></i></a></li>
+            <li><a href="mailto:diamond050396@gmail.com" target="_blank"><i
+                        class="text-white fa-brands fa-google fa-2x"></i></a></li>
+        </ul>
+    </footer>
 </body>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/231ad781b9.js" crossorigin="anonymous"></script>
 
 </html>
